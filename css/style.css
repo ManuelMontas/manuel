@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background: #fff;
+    font-family: "Open Sans", Arial, Helvetica, Sans-serif;
+    font-size: 16px;
+  }
+  a {
+    color: #4a88f4;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  img {
+    vertical-align: top;
+  }
+  p {
+    margin: 0;
+    margin-bottom: 1em;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .wrap {
+    width: 90%;
+    max-width: 75em;
+    margin: auto;
+    overflow: hidden;
+  }
+  .list li {
+    display: inline-block;
+  }
+  .button {
+    background: #4a88f4;
+    border: none;
+    color: #fff;
+    font-size: 1.125em;
+    display: inline-block;
+  }
+  .button.verde {
+    background: #27ae60;
+  }
+  .button.verde:hover {
+    background: #1d944f;
+  }
+  .button:hover {
+    background: #1668c4;
+  }
+  /* alignments */
+  .center {
+    text-align: center;
+  }
+  .aligncenter {
+    clear: both;
+    margin: 0 auto;
+    display: block;
+  }
+  img.center,
+  img[align="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .alignleft {
+    float: left;
+  }
+  img.alignleft,
+  img[align="left"] {
+    float: left;
+    margin: 1.25em 1.25em 1.25em 0px;
+  }
+  .alignright {
+    float: right;
+  }
+  img.alignright,
+  img[align="right"] {
+    float: right;
+    margin: 1.25em 0px 1.25em 1.25em;
+  }
+  .clear {
+    clear: both;
+  }
+  hr.clear {
+    clear: both;
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+  }
+  header {
+    width: 100%;
+    border-top: 5px solid #4a88f4;
+    background: #fff;
+    position: fixed;
+    z-index: 10;
+  }
+  header a:hover {
+    text-decoration: none;
+  }
+  header .logo {
+    height: 3.4375em;
+    float: left;
+    margin-right: 2.5em;
+  }
+  header .logo img {
+    width: 3.4375em;
+    height: 3.4375em;
+    float: left;
+  }
+  header .logo .logo-text {
+    color: #000;
+    line-height: 3.4375rem;
+    float: left;
+    padding: 0 10px;
+    font-size: 1.5em;
+  }
+  header .logo:hover a {
+    background: #131313;
+    color: #fff;
+  }
+  header .menu_bar {
+    display: none;
+  }
+  header nav {
+    float: left;
+  }
+  header nav ul {
+    list-style: none;
+  }
+  header nav ul li {
+    float: left;
+    font-family: "Open Sans";
+    font-size: 20px;
+    margin-top: 0.3125em;
+    border-bottom: 0.3125em solid transparent;
+  }
+  header nav ul li ul {
+    display: none;
+  }
+  header nav ul li a {
+    display: block;
+    padding: 0 1.25em;
+    color: #302f2f;
+    line-height: 2.8125em;
+  }
+  header nav ul li a span {
+    display: none;
+  }
+  header nav ul li:hover {
+    border-bottom: 5px solid #4a88f4;
+  }
+  header nav ul li:hover a {
+    color: #4a88f4;
+  }
+  .ad_area {
+    background: #f7f7f7;
+    width: 100%;
+    text-align: center;
+    padding: 0.625em 0;
+    overflow: hidden;
+  }
+  .ad_area img {
+    vertical-align: top;
+  }
+
+  @keyframes introStarWars {
+    0% {
+      transform: perspective(100vh) rotateX(15deg) translateY(100%);
+    }
+  
+    100% {
+      transform: perspective(100vh) rotateX(25deg) translateY(-200%);
+    }
+  }
+  
+  .star-wars {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: #ffb13a;
+    background-image: url("/img/stars.gif");
+  }
+  
+  .star-wars-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: justify;
+    letter-spacing: 0.1rem;
+    animation: introStarWars 20s linear infinite;
+  }
+  
+  .star-wars h2,
+  .star-wars h3 {
+    font-size: 5vw;
+    text-align: center;
+  }
+  
+  .star-wars p {
+    font-size: 3vw;
+    line-height: 4rem;
+  }
+  
